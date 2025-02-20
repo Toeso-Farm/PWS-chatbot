@@ -1,0 +1,108 @@
+.pagina {
+    display: flex;
+    height: 100vh;
+}
+
+.zijmenu {
+    background-color: whitesmoke;
+    padding: 15px;  
+    width: 0;
+    overflow: hidden;
+    transition: 0.3s ease;
+    position: relative;
+    border-radius: 30px;
+    height: auto
+}
+.scherm {
+    background-color: white;
+    width: 100%;
+}
+.menu-inhoud {
+    padding: 20px;
+    transition: opacity 0.3s ease;
+}
+
+.zijmenu.open {
+    width: 500px;
+}
+
+.zijmenu.open .menu-inhoud {
+    opacity: 1;
+}
+
+.menu-knop {
+    border-radius: 5px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background-color: cornflowerblue;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    z-index: 10;
+}
+.menu-knop:hover{
+    background-color: blue;
+}
+.hoofd {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.onderwerp-blokken {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.blok {
+    background-color: cornflowerblue;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+.blok:hover {
+    background-color: blue;
+}
+.samenvatting {
+    padding: 20px;
+}
+.emails {
+    text-align: right;
+}
+.tekst {
+    border: 200px;
+    background-color: whitesmoke;
+    border-radius: 30px;
+    text-align: left;
+}
+.zoekbalk {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+#zoekveld {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#zoekKnop {
+    padding: 10px;
+    border: none;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#zoekKnop:hover {
+    background-color: blue;
+}
