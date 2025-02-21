@@ -63,7 +63,7 @@ try {
 
     // De restultaten worden in een tabel gezet
     if ($resultaten) {
-        echo "<table border='1'>";
+        echo "<table border='1' style= 'background-color: white'>";
         echo "<tr><th>Jaarlaag</th><th>Vak</th><th>Hoofdstuk</th><th>Basisstof</th><th>Video</th></tr>";
         foreach ($resultaten as $rij) {
             echo "<tr>
