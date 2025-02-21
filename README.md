@@ -1,6 +1,6 @@
 # PWS-chatbot
 
-Download XAMPP via  "https://www.apachefriends.org/" 
+Download XAMPP via  "https://www.apachefriends.org/" <br>
 wanneer je dan in XAMPP Control Panel zit enable Apache & MySQL
 klik dan op explorer-> en zet de bestanden in het mapje htdocs
 ga dan naar chrome open localhost/phpmyadmin
