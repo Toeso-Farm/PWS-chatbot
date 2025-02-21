@@ -1,5 +1,5 @@
 # PWS-chatbot
-Voor het gebruik van de code volg dit stappenplan: <br>
+Voor het gebruik van de pagina volg dit stappenplan: <br>
 1. Download XAMPP via  "https://www.apachefriends.org/" <br>
 2. wanneer je dan in XAMPP Control Panel zit enable Apache & MySQL<br>
 3. klik dan op explorer-> en zet alle 4 de bestanden in het mapje htdocs<br>
