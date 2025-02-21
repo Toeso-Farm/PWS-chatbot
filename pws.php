@@ -17,6 +17,7 @@
 }
 .terug-knop:hover {
     background-color: blue;
+}
 	</style>
 </head>
 <body style="background-image: url('https://i.imgur.com/itYrHlb.jpeg'); background-size: cover; background-position: center;">
